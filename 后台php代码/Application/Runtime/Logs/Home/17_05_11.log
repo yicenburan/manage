@@ -1,0 +1,32 @@
+[ 2017-05-11T11:22:29+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.153000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '刘德华' LIMIT 1   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '刘德华' AND `password` = '123' LIMIT 1   [ RunTime:0.0130s ]
+
+[ 2017-05-11T11:22:57+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('admin','admin') [ RunTime:0.0730s ]
+
+[ 2017-05-11T11:41:43+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '刘德华' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '刘德华' AND `password` = '123' LIMIT 1   [ RunTime:0.0000s ]
+

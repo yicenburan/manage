@@ -1,0 +1,711 @@
+[ 2017-06-05T10:10:28+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0940s ]
+SQL: SELECT * FROM `user` WHERE `username` = '张三'  [ RunTime:0.0210s ]
+SQL: SELECT * FROM `user` WHERE `username` = '张三'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '张三' LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '张三' AND `password` = '123' LIMIT 1   [ RunTime:0.0140s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 41 行.
+NOTIC: [8] Use of undefined constant uname - assumed 'uname' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 42 行.
+
+[ 2017-06-05T10:10:29+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:10:35+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:12:24+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-06-05T10:12:33+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:34+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:36+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:37+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:37+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:38+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:12:38+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:12:40+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:15:00+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:15:44+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:25:30+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 and uid=15 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`,`count`) VALUES ('14','15','1') [ RunTime:0.0920s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 48 行.
+
+[ 2017-06-05T10:25:32+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-06-05T10:25:34+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:25:35+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-06-05T10:25:37+08:00 ] ::1 /vueapi/index.php/Home/order/buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `order_tab` (`uid`,`oid`,`date`,`total`) VALUES ('15','2017060510253715','2017-06-05 10:25:37','0') [ RunTime:0.0590s ]
+SQL: INSERT INTO `orderdetail` (`oid`,`gid`) VALUES ('2017060510253715','14') [ RunTime:0.0430s ]
+SQL: DELETE FROM `cart` WHERE ( id=17 ) [ RunTime:0.0790s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-06-05T10:25:39+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:25:42+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0490s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:25:44+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:26:08+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:26:16+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:26:18+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=16 and uid=15 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`,`count`) VALUES ('16','15','1') [ RunTime:0.0660s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 48 行.
+
+[ 2017-06-05T10:26:21+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=33 and uid=15 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`,`count`) VALUES ('33','15','1') [ RunTime:0.0800s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 48 行.
+
+[ 2017-06-05T10:26:24+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=16 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=33 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-06-05T10:26:27+08:00 ] ::1 /vueapi/index.php/Home/order/buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0020s ]
+SQL: INSERT INTO `order_tab` (`uid`,`oid`,`date`,`total`) VALUES ('15','2017060510262715','2017-06-05 10:26:27','232') [ RunTime:0.0540s ]
+SQL: INSERT INTO `orderdetail` (`oid`,`gid`) VALUES ('2017060510262715','16') [ RunTime:0.0330s ]
+SQL: INSERT INTO `orderdetail` (`oid`,`gid`) VALUES ('2017060510262715','33') [ RunTime:0.0330s ]
+SQL: DELETE FROM `cart` WHERE ( id=18 ) [ RunTime:0.0550s ]
+SQL: DELETE FROM `cart` WHERE ( id=19 ) [ RunTime:0.0440s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-06-05T10:26:30+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0580s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:26:39+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510262715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=16 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=33 )  [ RunTime:0.0000s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:33:07+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:34:49+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:34:50+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:34:51+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 and uid=15 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`,`count`) VALUES ('14','15','1') [ RunTime:0.0740s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 48 行.
+
+[ 2017-06-05T10:34:54+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 and uid=15 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`,`count`) VALUES ('15','15','1') [ RunTime:0.1020s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 48 行.
+
+[ 2017-06-05T10:34:55+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+SQL: SELECT `title`,`price`,`img` FROM `goods` WHERE ( id=15 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant gid - assumed 'gid' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant count - assumed 'count' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant price - assumed 'price' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant img - assumed 'img' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-06-05T10:34:58+08:00 ] ::1 /vueapi/index.php/Home/order/buy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: INSERT INTO `order_tab` (`uid`,`oid`,`date`,`total`) VALUES ('15','2017060510345715','2017-06-05 10:34:57','0') [ RunTime:0.0710s ]
+SQL: INSERT INTO `orderdetail` (`oid`,`gid`) VALUES ('2017060510345715','14') [ RunTime:0.0760s ]
+SQL: INSERT INTO `orderdetail` (`oid`,`gid`) VALUES ('2017060510345715','15') [ RunTime:0.0660s ]
+SQL: DELETE FROM `cart` WHERE ( id=20 ) [ RunTime:0.0670s ]
+SQL: DELETE FROM `cart` WHERE ( id=21 ) [ RunTime:0.0550s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-06-05T10:34:59+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:35:03+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510345715 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510262715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=16 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=33 )  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:35:08+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:35:09+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510345715 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510262715 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=16 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=33 )  [ RunTime:0.0000s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:39:08+08:00 ] ::1 /vueapi/index.php/Home/order/showOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `orderdetail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `order_tab` WHERE ( uid=15 )  [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  * FROM `order_tab` WHERE ( uid=15 ) ORDER BY date desc  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510345715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0010s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510262715 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=16 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=33 )  [ RunTime:0.0000s ]
+SQL: SELECT `gid` FROM `orderdetail` WHERE ( oid=2017060510253715 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant oid - assumed 'oid' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant total - assumed 'total' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\OrderController.class.php 第 23 行.
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+
+[ 2017-06-05T10:39:14+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`gid`,`count` FROM `cart` WHERE ( uid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:39:15+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:39:38+08:00 ] ::1 /vueapi/index.php/Home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\AdminController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\AdminController.class.php 第 29 行.
+
+[ 2017-06-05T10:39:41+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:39:44+08:00 ] ::1 /vueapi/index.php/Home/order/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `order_tab` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `order_tab`  [ RunTime:0.0000s ]
+
+[ 2017-06-05T10:39:45+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+

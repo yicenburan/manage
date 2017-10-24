@@ -1,0 +1,3341 @@
+[ 2017-05-22T09:42:42+08:00 ] ::1 /vueapi/index.php/Home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `username` = 'admin' AND `password` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\AdminController.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\AdminController.class.php 第 29 行.
+
+[ 2017-05-22T09:43:45+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T09:43:50+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:50:55+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:50:58+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0150s ]
+
+[ 2017-05-22T09:51:04+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:51:06+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:51:22+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T09:51:23+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=7 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:52:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T09:52:10+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T09:52:11+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:53:05+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:53:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:53:26+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:53:44+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T09:53:58+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T09:54:10+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T09:54:12+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=9 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:00:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:00:11+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 116 行.
+
+[ 2017-05-22T10:00:33+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:00:52+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:01:03+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 117 行.
+
+[ 2017-05-22T10:01:21+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:01:22+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 118 行.
+
+[ 2017-05-22T10:02:01+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:02:03+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:02:35+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0080s ]
+
+[ 2017-05-22T10:03:12+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=9 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=9 ) [ RunTime:0.1500s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:03:12+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:05:23+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:05:27+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:06:05+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:06:07+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=4 ) [ RunTime:0.0960s ]
+NOTIC: [2] unlink(Uploads/2017-05-19/591e95eef1acc.png): No such file or directory D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:06:07+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:06:08+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods` WHERE ( id=7 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=7 ) [ RunTime:0.2040s ]
+NOTIC: [2] unlink(Uploads/2017-05-19/591e9bf56fcac.png): No such file or directory D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:06:09+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:06:09+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE ( id=8 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=8 ) [ RunTime:0.1010s ]
+NOTIC: [2] unlink(Uploads/2017-05-19/591e9d0ba9e5c.png): No such file or directory D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:06:09+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:06:10+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=10 )  [ RunTime:0.0010s ]
+SQL: DELETE FROM `goods` WHERE ( id=10 ) [ RunTime:0.0660s ]
+NOTIC: [2] unlink(Uploads/2017-05-19/591eb09c23604.png): No such file or directory D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 118 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:06:10+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:06:12+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:06:13+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:07:06+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T10:07:55+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:11:49+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:16:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:16:13+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:17:52+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:17:53+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:18:39+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:19:37+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:22:11+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:23:01+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:23:13+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:23:15+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:23:19+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:23:46+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T10:24:07+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:25:31+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:26:03+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:26:14+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:26:14+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:26:29+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:26:39+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('狗粮1','12','2017-05-22/59224c5fbade6.jpg') [ RunTime:0.0760s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T10:26:39+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:26:42+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:26:47+08:00 ] ::1 /vueapi/index.php/Home/goods/editGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: UPDATE `goods` SET `title`='狗粮',`price`='12' WHERE ( id=11 ) [ RunTime:0.1060s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 36 行.
+
+[ 2017-05-22T10:26:47+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:26:58+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:28:44+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:28:46+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:28:56+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('狗粮·','120','2017-05-22/59224ce89c59e.jpg') [ RunTime:0.0820s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T10:28:56+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:03+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:05+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:29:08+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:29+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:35+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:36+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:29:47+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:30:02+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:30:04+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:30:19+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:30:38+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:30:41+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:31:44+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:31:52+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:31:58+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:31:59+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:32:05+08:00 ] ::1 /vueapi/index.php/Home/goods/editGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `goods` SET `title`='狗粮·',`price`='120',`img`='2017-05-22/59224da560c7e.jpg' WHERE ( id=12 ) [ RunTime:0.0880s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 102 行.
+
+[ 2017-05-22T10:32:05+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:32:10+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:32:19+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:32:21+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:32:23+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:32:24+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:32:27+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:32:28+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 11  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:33:47+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:33:49+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:33:50+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:33:53+08:00 ] ::1 /vueapi/index.php/Home/goods/editGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `goods` SET `title`='狗粮·',`price`='120',`img`='2017-05-22/59224e111f1b6.jpg' WHERE ( id=12 ) [ RunTime:0.0630s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 101 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 102 行.
+
+[ 2017-05-22T10:33:53+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:33:54+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:34:33+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:34:39+08:00 ] ::1 /vueapi/index.php/Home/goods/selectGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 12  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:34:58+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:35:05+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('test','1','2017-05-22/59224e59053a6.jpg') [ RunTime:0.0750s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T10:35:05+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:35:07+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=13 )  [ RunTime:0.0010s ]
+SQL: DELETE FROM `goods` WHERE ( id=13 ) [ RunTime:0.0580s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T10:35:07+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:35:20+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:42:34+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:45:42+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T10:47:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T10:53:49+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+
+[ 2017-05-22T10:53:49+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+
+[ 2017-05-22T10:55:29+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('1','1') [ RunTime:0.0780s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 55 行.
+
+[ 2017-05-22T10:57:18+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('1','1') [ RunTime:0.0720s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 55 行.
+
+[ 2017-05-22T10:57:35+08:00 ] ::1 /vueapi/index.php/Home/user/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: INSERT INTO `user` (`username`,`password`) VALUES ('1','1') [ RunTime:0.0390s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 54 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 55 行.
+
+[ 2017-05-22T10:59:03+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' AND `password` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 36 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 37 行.
+
+[ 2017-05-22T11:14:00+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:16:20+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T11:16:23+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T13:39:53+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T13:40:40+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0030s ]
+
+[ 2017-05-22T14:19:40+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:35:12+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:51:33+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:54:07+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T14:54:27+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:55:24+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:56:00+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:56:03+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:56:04+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `goods` WHERE ( id= ) 
+
+[ 2017-05-22T14:57:30+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:57:34+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:57:36+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods` WHERE ( id=11 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=11 ) [ RunTime:0.0550s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T14:57:36+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:57:37+08:00 ] ::1 /vueapi/index.php/Home/goods/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=12 )  [ RunTime:0.0000s ]
+SQL: DELETE FROM `goods` WHERE ( id=12 ) [ RunTime:0.0440s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 122 行.
+
+[ 2017-05-22T14:57:37+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:57:39+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:57:48+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T14:59:20+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T14:59:59+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:00:02+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:00:08+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:00:32+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('狗粮','12','2017-05-22/59228c907be16.jpg') [ RunTime:0.0640s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T15:00:32+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:00:43+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('狗粮','13','2017-05-22/59228c9b3babe.jpg') [ RunTime:0.0490s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T15:00:43+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:00:47+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:02:33+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:02:55+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:02:58+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:03:41+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:03:44+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:05:18+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:05:31+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:07:57+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:09:55+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:10:06+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:11:48+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:11:51+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:13:09+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T15:13:21+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:13:59+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:24:15+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:26:01+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:26:01+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:26:27+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T15:26:36+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:27:02+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:27:21+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:27:23+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:28:30+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:29:39+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:29:56+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:30:35+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:30:59+08:00 ] ::1 /vueapi/index.php/Home/goods/postGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\vueapi\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: INSERT INTO `goods` (`title`,`price`,`img`) VALUES ('狗粮1','12','2017-05-22/592293b38b42e.jpg') [ RunTime:0.0430s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' D:\xampp\htdocs\vueapi\Application\Home\Controller\GoodsController.class.php 第 84 行.
+
+[ 2017-05-22T15:30:59+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:31:03+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:32:10+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:32:12+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:33:25+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:36:08+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:36:54+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:40:00+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T15:44:19+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T15:44:38+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:45:04+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:45:14+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0020s ]
+
+[ 2017-05-22T15:45:53+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:48:26+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:49:02+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:50:41+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T15:51:03+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T15:51:39+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0030s ]
+
+[ 2017-05-22T15:51:44+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T16:54:08+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T16:54:15+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:13:50+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:20:25+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:20:46+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'admin'  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 25 行.
+
+[ 2017-05-22T17:21:00+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:21:35+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:22:18+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' AND `password` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 40 行.
+
+[ 2017-05-22T17:25:27+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:25:33+08:00 ] ::1 /vueapi/index.php/Home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `username` = '1'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '1' AND `password` = '1' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\xampp\htdocs\vueapi\Application\Home\Controller\UserController.class.php 第 40 行.
+
+[ 2017-05-22T17:25:34+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:25:39+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:28:24+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:29:06+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:29:10+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:34:19+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:34:22+08:00 ] ::1 //vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cart
+
+[ 2017-05-22T17:34:22+08:00 ] ::1 //vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cart
+
+[ 2017-05-22T17:34:44+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:34:46+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cart
+
+[ 2017-05-22T17:35:38+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:35:39+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024000s ]
+
+[ 2017-05-22T17:37:17+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:37:19+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('15','12') [ RunTime:0.0660s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 14 行.
+
+[ 2017-05-22T17:37:19+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('15','12') [ RunTime:0.0300s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 14 行.
+
+[ 2017-05-22T17:37:52+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:37:55+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:38:00+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('14','12') [ RunTime:0.0540s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 13 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 14 行.
+
+[ 2017-05-22T17:41:47+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:41:47+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0120s ]
+
+[ 2017-05-22T17:42:32+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:43:14+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:43:48+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:44:06+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:44:13+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:44:37+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:44:41+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:44:49+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:44:55+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:44:59+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:45:01+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:45:08+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:45:59+08:00 ] ::1 /vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:45:59+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:50:54+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:50:56+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:52:17+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:52:17+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:52:37+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:52:37+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:52:44+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:52:46+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:52:51+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('15','12') [ RunTime:0.0550s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+
+[ 2017-05-22T17:52:54+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:52:56+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0070s ]
+
+[ 2017-05-22T17:52:56+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:53:15+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:53:18+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:54:10+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+
+[ 2017-05-22T17:54:12+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+
+[ 2017-05-22T17:54:20+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+
+[ 2017-05-22T17:54:22+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+
+[ 2017-05-22T17:55:28+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:57:18+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:57:20+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:57:22+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('15','12') [ RunTime:0.0590s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:57:37+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:57:39+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('14','12') [ RunTime:0.0540s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:58:15+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:58:16+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=16 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T17:59:08+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:59:10+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T17:59:12+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=16 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:01:37+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:01:39+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('15','12') [ RunTime:0.0720s ]
+
+[ 2017-05-22T18:02:51+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:02:53+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+
+[ 2017-05-22T18:02:59+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `cart` (`gid`,`uid`) VALUES ('14','12') [ RunTime:0.0640s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+
+[ 2017-05-22T18:03:41+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:03:47+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+SQL: UPDATE `cart` SET `count`='1' WHERE ( gid=15 ) [ RunTime:0.0930s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+
+[ 2017-05-22T18:04:39+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+SQL: UPDATE `cart` SET `count`='1' WHERE ( gid=14 ) [ RunTime:0.0690s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 31 行.
+
+[ 2017-05-22T18:04:45+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:04:47+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+SQL: UPDATE `cart` SET `count`='1' WHERE ( gid=15 ) [ RunTime:0.0710s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 36 行.
+
+[ 2017-05-22T18:05:33+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:05:37+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+SQL: UPDATE `cart` SET `count`='1' WHERE ( gid=15 ) [ RunTime:0.0800s ]
+
+[ 2017-05-22T18:06:14+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:06:16+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-05-22T18:06:50+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:06:52+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: count D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 25 行.
+
+[ 2017-05-22T18:07:16+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:07:18+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:07:38+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:07:42+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+SQL: UPDATE `cart` SET `count`='2' WHERE ( gid=15 ) [ RunTime:0.0740s ]
+
+[ 2017-05-22T18:08:08+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:08:10+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0010s ]
+SQL: UPDATE `cart` SET `count`='3' WHERE ( gid=15 ) [ RunTime:0.0550s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 31 行.
+
+[ 2017-05-22T18:08:13+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:08:52+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:08:54+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=15 )  [ RunTime:0.0000s ]
+SQL: UPDATE `cart` SET `count`='4' WHERE ( gid=15 ) [ RunTime:0.1550s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 31 行.
+
+[ 2017-05-22T18:09:37+08:00 ] ::1 //vueapi/index.php/Home/goods/showGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `goods`  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:09:39+08:00 ] ::1 /vueapi/index.php/Home/cart/addCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( gid=14 )  [ RunTime:0.0010s ]
+SQL: UPDATE `cart` SET `count`='2' WHERE ( gid=14 ) [ RunTime:0.0800s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant msg - assumed 'msg' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 31 行.
+
+[ 2017-05-22T18:09:49+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0000s ]
+
+[ 2017-05-22T18:09:52+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:15:32+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:15:40+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019000s ]
+
+[ 2017-05-22T18:17:14+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:17:40+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0140s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:19:43+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:19:52+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:20:19+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:21:27+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:23:06+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:25:45+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T18:26:03+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T18:26:25+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant carts - assumed 'carts' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+
+[ 2017-05-22T18:27:03+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant carts - assumed 'carts' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 24 行.
+
+[ 2017-05-22T18:29:52+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+
+[ 2017-05-22T18:30:35+08:00 ] ::1 /vueapi/index.php/Home/cart/showCart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cart` WHERE ( uid=12 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `goods` WHERE ( id=15 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `goods` WHERE ( id=14 )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant code - assumed 'code' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 26 行.
+NOTIC: [8] Use of undefined constant carts - assumed 'carts' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\vueapi\Application\Home\Controller\CartController.class.php 第 28 行.
+
